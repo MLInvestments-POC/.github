@@ -1,7 +1,7 @@
 {
     "name": "MLInvestments Organization Workflow",
     "description": "MLInvestments Organization CI starter workflow.",
-    "iconName": "example-icon",
+    "iconName": "metinv",
     "categories": [
         "Java"
     ],
