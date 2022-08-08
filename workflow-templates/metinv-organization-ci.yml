@@ -18,5 +18,3 @@ jobs:
         uses: MLInvestments-POC/composite-action-repo01@v4
         with:
           who-to-greet: 'Srinivas Charan Mamidi'
-      - run: echo random-number ${{ steps.foo.outputs.random-number }}
-        shell: bash
