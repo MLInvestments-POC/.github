@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo Hello from MLInvestments Organization
+        run: echo Hello from Organization MLInvestments 
       - id: foo
         uses: MLInvestments-POC/composite-action-repo01@v4
         with:
