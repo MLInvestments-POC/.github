@@ -14,8 +14,8 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a one-line script
         run: echo Hello from MLInvestments Organization
-      
-      - uses: actions/composite-action-repo01@v1
+      - id: foo
+        uses: actions/composite-action-repo01@v1
         with:
           who-to-greet: 'Srinivas Charan Mamidi'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
