@@ -15,7 +15,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello from MLInvestments Organization
       - id: foo
-        uses: MLInvestments-POC/composite-action-repo01@v1
+        uses: MLInvestments-POC/composite-action-repo01@v2
         with:
           who-to-greet: 'Srinivas Charan Mamidi'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
